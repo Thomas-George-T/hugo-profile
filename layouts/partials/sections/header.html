@@ -139,14 +139,6 @@
                     </li>
                     {{ end }}
 
-                    <!-- Resume -->
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.Params.hero.button.url }}" 
-                            target="_blank" aria-label="contact">
-                            {{ .Site.Params.resume.title | default "Resume" }}
-                        </a>
-                    </li>
-
                     <!-- custom menus from the user -->
                     {{ range .Site.Menus.main }}
                     {{ if .HasChildren }}
